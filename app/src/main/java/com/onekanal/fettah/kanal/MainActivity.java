@@ -1,8 +1,10 @@
 package com.onekanal.fettah.kanal;
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
@@ -501,6 +503,31 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+    }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        SharedPreferences prefs = getApplicationContext().
+                getSharedPreferences(getPackageName(), Activity.MODE_PRIVATE);
+        SharedPreferences.Editor edit = prefs.edit();
+        edit.putString("lastUrl",webView.getUrl());
+        edit.commit();   // can use edit.apply() but in this case commit is better
+    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(webView != null) {
+            SharedPreferences prefs = getApplicationContext().
+                    getSharedPreferences(getPackageName(), Activity.MODE_PRIVATE);
+            String s = prefs.getString("lastUrl","");
+            if(!s.equals("")) {
+                webView.loadUrl(s);
+            }
+        }
     }
 
 
