@@ -513,7 +513,7 @@ public class MainActivity extends AppCompatActivity {
                 getSharedPreferences(getPackageName(), Activity.MODE_PRIVATE);
         SharedPreferences.Editor edit = prefs.edit();
         edit.putString("lastUrl",webView.getUrl());
-        edit.apply();   // can use edit.apply() but in this case commit is better
+        edit.commit();   // can use edit.apply() but in this case commit is better
     }
 
 
