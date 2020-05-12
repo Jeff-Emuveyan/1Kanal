@@ -2,9 +2,10 @@ package com.onekanal.fettah.kanal;
 
 import android.content.Context;
 import android.os.Handler;
-import android.support.v7.app.AlertDialog;
 import android.webkit.JavascriptInterface;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 
