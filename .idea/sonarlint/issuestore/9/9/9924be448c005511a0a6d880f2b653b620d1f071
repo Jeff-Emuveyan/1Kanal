@@ -1,77 +1,77 @@
 
-F
-java:S1148˜"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8–¾Å .
-P
-java:S1444>"3Make this "public static versionIsHigh" field final(Í°öÿ8–¾Å .
-X
-java:S2209¾"5Change this instance-reference to a static reference.(¤Ñàìûÿÿÿÿ8–¾Å .
-
-java:S1488¤"aImmediately return this expression instead of assigning it to the temporary variable "imageFile".(ÀˆØ8–¾Å .
-Y
-java:S2696Ê"6Make the enclosing method "static" or remove this set.(Œ—ı€şÿÿÿÿ8–¾Å .
-Y
-java:S2696É"6Make the enclosing method "static" or remove this set.(…“è±úÿÿÿÿ8ƒ¾Å .
-Y	java:S125Á"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
-Y	java:S125·"<This block of commented-out lines of code should be removed.(½¿ÂÈ8–¾Å .
-Y	java:S125ã"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
-{
-java:S3008D"^Rename this field "PERMISSIONS_STORAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ìä¯8–¾Å .
-v
-java:S1104>"YMake versionIsHigh a static final constant or non-public and provide accessors if needed.(Í°öÿ8–¾Å .
 d
-java:S1126“"AReplace this if-then-else statement by a single return statement.(®Òƒ÷úÿÿÿÿ8–¾Å .
-n	java:S117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ²ùÏ8–¾Å .
-I
-java:S1172ş"&Remove these unused method parameters.(Í±ï€şÿÿÿÿ8–¾Å .
-T
-java:S2696±"6Make the enclosing method "static" or remove this set.(±ùÕ8–¾Å .
-t
-java:S3776K"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨Œşÿÿÿÿ8–¾Å .
-T
-java:S2696²"6Make the enclosing method "static" or remove this set.(éÃÏ÷8–¾Å .
-Y	java:S125†"<This block of commented-out lines of code should be removed.(–İ½8–¾Å .
-L
-java:S1172Ù".Remove this unused method parameter "capture".(¿êá¢8–¾Å .
-g
-java:S2583¾"DChange this condition so that it does not always evaluate to "false"(¤Ñàìûÿÿÿÿ8–¾Å .
-X
-java:S2696d"6Make the enclosing method "static" or remove this set.(’å¬òùÿÿÿÿ8–¾Å .
+java:S1126•"AReplace this if-then-else statement by a single return statement.(®Òƒ÷úÿÿÿÿ8–¾Å .
+Y	java:S125È"<This block of commented-out lines of code should be removed.(½¿ÂÈ8–¾Å .
+Y	java:S125Ã"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
+{
+java:S3008F"^Rename this field "PERMISSIONS_STORAGE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Ìä¯8–¾Å .
 O
-java:S1153À"1Directly append the argument of String.valueOf().(ˆÇÙº8–¾Å .
-T
-java:S2696Ğ"6Make the enclosing method "static" or remove this set.(ÿ«8–¾Å .
-S
-java:S2696°"6Make the enclosing method "static" or remove this set.(ÃüõI8ƒ¾Å .
-Y	java:S125‘"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
-^	java:S125Ñ"<This block of commented-out lines of code should be removed.(¼Òşÿÿÿÿ8–¾Å .
-Y	java:S125²"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
-U
-java:S2589½"7Remove this expression which always evaluates to "true"(ğêÍÌ8–¾Å .
-H
-java:S3398"%Move this method into "ChromeClient".(‹Ïä¡ùÿÿÿÿ8–¾Å .
-[
-java:S1444-"9Make this "public static circularProgressBar" field final(Ú©¯´ÿÿÿÿÿ8–¾Å .
-
-java:S1104-"_Make circularProgressBar a static final constant or non-public and provide accessors if needed.(Ú©¯´ÿÿÿÿÿ8–¾Å .
-u
-java:S3776î"RRefactor this method to reduce its Cognitive Complexity from 70 to the 15 allowed.(ÉÎÍïıÿÿÿÿ8–¾Å .
+java:S1172Ì"1Remove this unused method parameter "acceptType".(Øß¿×8–¾Å .
+v
+java:S1104@"YMake versionIsHigh a static final constant or non-public and provide accessors if needed.(Í°öÿ8–¾Å .
+O
+java:S1153Û"1Directly append the argument of String.valueOf().(ˆÇÙº8–¾Å .
+X	java:S125:"<This block of commented-out lines of code should be removed.(«¨„8–¾Å .
+n	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ²ùÏ8–¾Å .
+F
+java:S1148š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8–¾Å .
 X
-java:S2696c"6Make the enclosing method "static" or remove this set.(Ë…ááøÿÿÿÿ8ƒ¾Å .
-X	java:S1258"<This block of commented-out lines of code should be removed.(«¨„8–¾Å .
-m
-java:S1192—"ODefine a constant instead of duplicating this literal "No file found " 3 times.(œ–±8–¾Å .
+java:S2696f"6Make the enclosing method "static" or remove this set.(’å¬òùÿÿÿÿ8–¾Å .
 9
-java:S3626Ş"Remove this redundant jump.(ûÁİ…8–¾Å .
-Y	java:S125Æ"<This block of commented-out lines of code should be removed.(½¿ÂÈ8–¾Å .
-O
-java:S1172±"1Remove this unused method parameter "acceptType".(Øß¿×8–¾Å .
-X
-java:S2696P"6Make the enclosing method "static" or remove this set.(öÛï¼ÿÿÿÿÿ8–¾Å .
+java:S3626à"Remove this redundant jump.(ûÁİ…8–¾Å .
 Y
-java:S2696ƒ"6Make the enclosing method "static" or remove this set.(ÿÄ–‘úÿÿÿÿ8–¾Å .
+java:S2696Ë"6Make the enclosing method "static" or remove this set.(…“è±úÿÿÿÿ8ƒ¾Å .
 z
-java:S3252»"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(œ®æÿÿÿÿÿ8ªª–Æ .
+java:S3252½"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(œ®æÿÿÿÿÿ8ªª–Æ .
+I
+java:S1172™"&Remove these unused method parameters.(Í±ï€şÿÿÿÿ8–¾Å .
+Y	java:S125¹"<This block of commented-out lines of code should be removed.(½¿ÂÈ8–¾Å .
 z
-java:S3252¼"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(²ÍÆöúÿÿÿÿ8ªª–Æ .
+java:S3252¾"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(²ÍÆöúÿÿÿÿ8ªª–Æ .
+T
+java:S2696Í"6Make the enclosing method "static" or remove this set.(éÃÏ÷8–¾Å .
+X
+java:S2696e"6Make the enclosing method "static" or remove this set.(Ë…ááøÿÿÿÿ8ƒ¾Å .
+U
+java:S2589¿"7Remove this expression which always evaluates to "true"(ğêÍÌ8–¾Å .
+Y
+java:S2696"6Make the enclosing method "static" or remove this set.(ÿÄ–‘úÿÿÿÿ8–¾Å .
+Y
+java:S2696Ì"6Make the enclosing method "static" or remove this set.(Œ—ı€şÿÿÿÿ8–¾Å .
+L
+java:S1172ô".Remove this unused method parameter "capture".(¿êá¢8–¾Å .
+Y	java:S125´"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
+m
+java:S1192™"ODefine a constant instead of duplicating this literal "No file found " 3 times.(œ–±8–¾Å .
+Y	java:S125å"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
+Y	java:S125“"<This block of commented-out lines of code should be removed.(Ş¼Íç8–¾Å .
+T
+java:S2696Ò"6Make the enclosing method "static" or remove this set.(ÿ«8–¾Å .
+
+java:S1488¦"aImmediately return this expression instead of assigning it to the temporary variable "imageFile".(ÀˆØ8–¾Å .
+u
+java:S3776ğ"RRefactor this method to reduce its Cognitive Complexity from 70 to the 15 allowed.(ÉÎÍïıÿÿÿÿ8–¾Å .
+[
+java:S1444/"9Make this "public static circularProgressBar" field final(Ú©¯´ÿÿÿÿÿ8–¾Å .
+S
+java:S2696²"6Make the enclosing method "static" or remove this set.(ÃüõI8ƒ¾Å .
 z
-java:S3252½"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ŒÈèùúÿÿÿÿ8ªª–Æ .
+java:S3252¿"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ŒÈèùúÿÿÿÿ8ªª–Æ .
+^	java:S125Ó"<This block of commented-out lines of code should be removed.(¼Òşÿÿÿÿ8–¾Å .
+t
+java:S3776M"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨Œşÿÿÿÿ8–¾Å .
+X
+java:S2696R"6Make the enclosing method "static" or remove this set.(öÛï¼ÿÿÿÿÿ8–¾Å .
+P
+java:S1444@"3Make this "public static versionIsHigh" field final(Í°öÿ8–¾Å .
+T
+java:S2696³"6Make the enclosing method "static" or remove this set.(±ùÕ8–¾Å .
+
+java:S1104/"_Make circularProgressBar a static final constant or non-public and provide accessors if needed.(Ú©¯´ÿÿÿÿÿ8–¾Å .
+g
+java:S2583À"DChange this condition so that it does not always evaluate to "false"(¤Ñàìûÿÿÿÿ8–¾Å .
+H
+java:S3398 "%Move this method into "ChromeClient".(‹Ïä¡ùÿÿÿÿ8–¾Å .
+Y	java:S125ˆ"<This block of commented-out lines of code should be removed.(–İ½8–¾Å .
+X
+java:S2209À"5Change this instance-reference to a static reference.(¤Ñàìûÿÿÿÿ8–¾Å .

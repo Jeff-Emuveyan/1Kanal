@@ -17,3 +17,11 @@ z
 Japp/src/main/java/com/onekanal/fettah/BackgroundWorkers/CompressImage.java,2/c/2cdc1a2e15748738ba5016238bc5e6ea120d1b02
 è
 _app/src/main/java/com/onekanal/fettah/kanal/NotificationService/MyFireBaseMessagingService.java,2/8/2898179fadc41e0428c7c1632a4f4a15255283c1
+Y
+)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
+[
++app/src/main/res/layout/activity_splash.xml,1/3/13b26b9b6631cddf289c5ab7c4e546a180da97d8
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+h
+8app/src/main/java/com/onekanal/fettah/kanal/UrlLink.java,5/f/5f1fa8494d10ffe61fb3168ec3f87693b65f7cde
