@@ -13,6 +13,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/google-services.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <value>
             <set />
