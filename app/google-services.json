@@ -8,9 +8,46 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:546933164244:android:c9a7704d671a9330",
+        "mobilesdk_app_id": "1:546933164244:android:b8c21606350332d4c5d341",
         "android_client_info": {
           "package_name": "com.onekanal.fettah.kanal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546933164244-5viq8o1em38fbofmvj1ph6gvk1rdmtai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onekanal.fettah.kanal",
+            "certificate_hash": "5c818cc8542d5449b3a8255d414512c877eb5f83"
+          }
+        },
+        {
+          "client_id": "546933164244-9qqve0jrj2u19q31d2vdlskkgg4v248d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsttbuXS-CnlH-_fHFYLjx3Z4V76yIH34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546933164244-9qqve0jrj2u19q31d2vdlskkgg4v248d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546933164244:android:c9a7704d671a9330",
+        "android_client_info": {
+          "package_name": "com.tweetcellfettah.fettah.tweetcell"
         }
       },
       "oauth_client": [
@@ -25,15 +62,13 @@
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
-        },
-        "ads_service": {
-          "status": 2
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546933164244-9qqve0jrj2u19q31d2vdlskkgg4v248d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
