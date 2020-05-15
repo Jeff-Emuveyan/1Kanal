@@ -18,6 +18,7 @@ import java.util.Random;
 
 public class MyFireBaseMessagingService extends FirebaseMessagingService {
 
+
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
@@ -48,7 +49,9 @@ public class MyFireBaseMessagingService extends FirebaseMessagingService {
                         .setContentText(body)
                         .setAutoCancel(true)
                         .setSound(defaultSoundUri)
-                        .setContentIntent(pendingIntent);
+                        .setContentIntent(pendingIntent)
+                        .setStyle(new NotificationCompat.BigTextStyle()
+                                .bigText(body));
 
         NotificationManager notificationManager =
                 (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
