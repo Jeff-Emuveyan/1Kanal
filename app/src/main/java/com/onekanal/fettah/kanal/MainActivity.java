@@ -223,6 +223,8 @@ public class MainActivity extends AppCompatActivity {
             });
 
 
+            //before loading the default url, we need to check if the notification tray already has a url.
+            //We also repeat this process in the 'OnResume method'
             Bundle b= getIntent().getExtras();
             String urlFromNotification = null;
             if(b != null){
