@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     private Uri mCapturedImageURI = null;
     private static ValueCallback<Uri[]> mFilePathCallback;
     private String mCameraPhotoPath;
-
+    private Boolean doNotRefresh;
     public static boolean versionIsHigh;
 
     static Context c;
@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
         currentURL = null;
         pulledToRefresh = false;
+        doNotRefresh = false;
         versionIsHigh = true; //Let's assume that the app will be run on latest version of Android
         c = this;
 
@@ -138,6 +139,7 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     currentURL = url;
+                    doNotRefresh = false;
                 }
 
                 @Override
@@ -148,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
                     //circularProgressBar.setVisibility(View.GONE);
                     mSwipeRefreshLayout.setRefreshing(false);
                     pulledToRefresh = false;
+                    doNotRefresh = false;
 
                     //Now we need to know which page we just loaded so that we can get the users name from the HTML
                     if(url.contains("market/product/all")){// This is usually found in parts of the link of the first page that shows when the user logs in. This page has the user name
@@ -257,6 +260,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
             Uri[] results = null;
+            doNotRefresh = true;
 
             // Check that the response is a good one
             if (resultCode == AppCompatActivity.RESULT_OK) {
@@ -533,6 +537,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
+        if(doNotRefresh){
+            return;
+        }
 
         Bundle b= getIntent().getExtras();
         String urlFromNotification = null;
