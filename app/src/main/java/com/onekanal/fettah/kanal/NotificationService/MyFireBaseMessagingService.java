@@ -25,15 +25,15 @@ public class MyFireBaseMessagingService extends FirebaseMessagingService {
         //This it the code that runs when the Android system receives a notification for this particular app:
         if (remoteMessage.getData().size() > 0) {
 
-            showNotification(remoteMessage.getData().get("title"), remoteMessage.getData().get("body"));
+            showNotification(remoteMessage.getData().get("title"), remoteMessage.getData().get("body"), remoteMessage.getData().get("url"));
         }
 
     }
 
 
-    private void showNotification(String title, String body) {
+    private void showNotification(String title, String body, String url) {
 
-        Intent intent = new Intent(this, MainActivity.class).putExtra("msg",body);
+        Intent intent = new Intent(this, MainActivity.class).putExtra("msg",body).putExtra("url", url);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
                 PendingIntent.FLAG_ONE_SHOT);

@@ -34,6 +34,7 @@ import androidx.core.app.ActivityCompat;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.budiyev.android.circularprogressbar.CircularProgressBar;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.onekanal.fettah.BackgroundWorkers.CompressImage;
 
 import java.io.File;
@@ -222,7 +223,17 @@ public class MainActivity extends AppCompatActivity {
             });
 
 
-            webView.loadUrl(UrlLink.url);
+            Bundle b= getIntent().getExtras();
+            String urlFromNotification = null;
+            if(b != null){
+                urlFromNotification = b.getString("url");
+            }
+
+            if(urlFromNotification != null && !urlFromNotification.equals("")){
+                webView.loadUrl(urlFromNotification);
+            }else{
+                webView.loadUrl(UrlLink.url);
+            }
 
         }else{
 
@@ -520,6 +531,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
+        Bundle b= getIntent().getExtras();
+        String urlFromNotification = null;
+        if(b != null){
+            urlFromNotification = b.getString("url");
+        }
+
+        if(urlFromNotification != null && !urlFromNotification.equals("")){
+            webView.loadUrl(urlFromNotification);
+            return;
+        }
+
         if(webView != null) {
             SharedPreferences prefs = getApplicationContext().
                     getSharedPreferences(getPackageName(), Activity.MODE_PRIVATE);
