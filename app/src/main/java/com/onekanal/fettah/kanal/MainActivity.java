@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
                     pulledToRefresh = false;
 
                     //Now we need to know which page we just loaded so that we can get the users name from the HTML
-                    if(url.contains("waiting/all/all")){// This is usually found in parts of the link of the first page that shows when the user logs in. This page has the user name
+                    if(url.contains("market/product/all")){// This is usually found in parts of the link of the first page that shows when the user logs in. This page has the user name
                         //NOTE: We must continue to do this each time the user loads this particular page because a different user may choose
                         //to login using the phone. So we must always get the user name and store it.
                         //Run javascript to get the raw HTML. This will pass the HTML to JavaScriptInterface showHTML method.
