@@ -1,41 +1,41 @@
 
 ?
-java:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-]
-java:S1126Ó"AReplace this if-then-else statement by a single return statement.(šþÅ‡ûÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÐÃÁþÿÿÿÿ
+java:S1148‚"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+W	java:S125›"<This block of commented-out lines of code should be removed.(ÇÖ²¯úÿÿÿÿ
+S
+java:S1854—"=Remove this useless assignment to local variable "kilobytes".(å›Ê%
+W
+java:S1117¬";Rename "results" which hides the field declared at line 39.(÷æúŽúÿÿÿÿ
+\
+java:S2147ƒ"ECombine this catch with the one at line 257, which has the same body.(ï­£Ä
 D
-java:S1481—".Remove this unused "kilobytes" local variable.(å›Ê%
+java:S1068&")Remove this unused "alert" private field.(š‘ÄÑúÿÿÿÿ
+R	java:S125£"<This block of commented-out lines of code should be removed.(Ôª¶¼
+W
+java:S1117ž";Rename "results" which hides the field declared at line 39.(À½íåúÿÿÿÿ
+W	java:S125™"<This block of commented-out lines of code should be removed.(Òï¤ùÿÿÿÿ
 s
 java:S2259’"\A "NullPointerException" could be thrown; "convertCompressedBitmapToFile()" can return null.(°ƒÍ 
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ÐÃÁþÿÿÿÿ
 e
 java:S1192@"JDefine a constant instead of duplicating this literal "/kanalsd/" 4 times.(‡¾æ˜ÿÿÿÿÿ
+`
+java:S2259s"JA "NullPointerException" could be thrown; "rawImageFile" is nullable here.(æ óÚ
+Q	java:S125_"<This block of commented-out lines of code should be removed.(Ð˜¦è
+]
+java:S1126Ó"AReplace this if-then-else statement by a single return statement.(šþÅ‡ûÿÿÿÿ
+e
+java:S2095û"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ûä…ä
 >
 java:S1148b"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 s
 java:S1450"XRemove the "appFolder" field and declare it as a local variable in the relevant methods.(Ò¼ñÿýÿÿÿÿ
-W	java:S125™"<This block of commented-out lines of code should be removed.(íåÇÞÿÿÿÿÿ
 ?
 java:S1148„"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-S
-java:S1854—"=Remove this useless assignment to local variable "kilobytes".(å›Ê%
-W	java:S125›"<This block of commented-out lines of code should be removed.(ÇÖ²¯úÿÿÿÿ
-`
-java:S2259s"JA "NullPointerException" could be thrown; "rawImageFile" is nullable here.(æ óÚ
-e
-java:S2095û"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ûä…ä
-R	java:S125£"<This block of commented-out lines of code should be removed.(Ôª¶¼
-\
-java:S2147ƒ"ECombine this catch with the one at line 257, which has the same body.(ï­£Ä
-Q	java:S125_"<This block of commented-out lines of code should be removed.(Ð˜¦è
-W	java:S125™"<This block of commented-out lines of code should be removed.(Òï¤ùÿÿÿÿ
+?
+java:S1148 "#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+D
+java:S1481—".Remove this unused "kilobytes" local variable.(å›Ê%
+W	java:S125™"<This block of commented-out lines of code should be removed.(íåÇÞÿÿÿÿÿ
 m
 java:S3776/"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ÄŒ¯…úÿÿÿÿ
-D
-java:S1068&")Remove this unused "alert" private field.(š‘ÄÑúÿÿÿÿ
-W
-java:S1117ž";Rename "results" which hides the field declared at line 39.(À½íåúÿÿÿÿ
-?
-java:S1148‚"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-W
-java:S1117¬";Rename "results" which hides the field declared at line 39.(÷æúŽúÿÿÿÿ
