@@ -20,6 +20,7 @@ public class JavaScriptInterface {
     Handler handler;
     AlertDialog.Builder alert;
     User user;
+    static int count = 0;
 
     JavaScriptInterface(Context ctx){
         this.ctx = ctx;
@@ -52,7 +53,11 @@ public class JavaScriptInterface {
         new Handler().post(new Runnable() {
             @Override
             public void run() {
-                Toast.makeText(ctx, "Welcome "+user.getUserName(), Toast.LENGTH_LONG).show();// this will toast the user's name
+                if(user.getUserName() != null && count == 0){
+                    Toast.makeText(ctx, "Welcome "+user.getUserName(), Toast.LENGTH_LONG).show();// this will toast the user's name
+                    count++;
+                }
+
             }
         });
 
@@ -61,9 +66,9 @@ public class JavaScriptInterface {
     private String getUserNameFromHTMLText(String HTML){
 
         //Here, we try to search through the large HTML text until we get the user's name.
-        //Know that if the user's name is 'client112' , then this name will be inside the HTML text like so:
-        // <h6 class="logged-fullname">client112</h6>
-        Pattern pattern = Pattern.compile("\\<h6 class=\"logged-fullname\">(.*?)\\</h6>");
+        //Know that if the user's name is 'dev' , then this name will be inside the HTML comment text like so:
+        //<!-- androiduser2024start-dev-androiduser2024end -->
+        Pattern pattern = Pattern.compile("androiduser2024start-(.*?)-androiduser2024end");
         //That code will simply search the HTML, extract anything in between <h6 class="logged-fullname"> and </h6>
         //So in this case, it will extract client112 => the user's name.
 

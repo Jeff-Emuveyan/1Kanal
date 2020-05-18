@@ -152,16 +152,13 @@ public class MainActivity extends AppCompatActivity {
                     pulledToRefresh = false;
                     doNotRefresh = false;
 
-                    //Now we need to know which page we just loaded so that we can get the users name from the HTML
-                    if(url.contains("market/product/all") || url.contains("/number/vipShow/all")){// This is usually found in parts of the link of the first page that shows when the user logs in. This page has the user name
-                        //NOTE: We must continue to do this each time the user loads this particular page because a different user may choose
-                        //to login using the phone. So we must always get the user name and store it.
-                        //Run javascript to get the raw HTML. This will pass the HTML to JavaScriptInterface showHTML method.
-                        webView.loadUrl("javascript:window.HtmlViewer.showHTML" +
-                                "('&lt;html&gt;'+document.getElementsByTagName('html')[0].innerHTML+'&lt;/html&gt;');");
-                        //Now, get the users name by searching through the html until we get the name. Go to JavaScriptInterface
-                        //and see what we did.
-                    }
+                    //Now we need to get the users name from the HTML so that we can use it as 'topic'
+                    //Since we don't know which particular url/html page to target, we are going to search every page that loads:
+                    webView.loadUrl("javascript:window.HtmlViewer.showHTML" +
+                            "('&lt;html&gt;'+document.getElementsByTagName('html')[0].innerHTML+'&lt;/html&gt;');");
+                    //Now, get the users name by searching through the html until we get the name. Go to JavaScriptInterface
+                    //and see what we did.
+
 
                 }
 
